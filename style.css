@@ -13,6 +13,12 @@ h1{
 margin-bottom:20px;
 }
 
+.contenedor-tabla{
+width: 100%;
+overflow-x: auto;
+padding-bottom: 10px;
+}
+
 /* TABLA */
 
 .tabla{
@@ -22,9 +28,7 @@ grid-auto-rows:60px;
 gap:6px;
 justify-content:center;
 margin-bottom:40px;
-
-overflow-x: auto;
-padding-bottom: 10px;
+padding-bottom: 1opx;
 }
 
 @media (max-width: 768px){
