@@ -6,6 +6,7 @@ color:white;
 text-align:center;
 margin:0;
 padding:20px;
+overflow-x: auto;
 }
 
 h1{
@@ -21,6 +22,24 @@ grid-auto-rows:60px;
 gap:6px;
 justify-content:center;
 margin-bottom:40px;
+
+overflow-x: auto;
+padding-bottom: 10px;
+}
+
+@media (max-width: 768px){
+.tabla{
+justify-content: start;
+}
+}
+
+.tabla::-webkit-scrollbar{
+    height: 8px;
+}
+
+.tabla::-webkit-scrollbar-thumb{
+background-color: #888;
+border-radius: 10px;
 }
 
 /* ELEMENTOS */
